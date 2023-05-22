@@ -12,6 +12,7 @@ public class Runner {
         System.out.println("--------------------FINRA-----------------------");
 
         FINRA.finra();
+        //1 2 FIN 4 RA FIN 7 8 FIN RA 11 FIN 13 14 FINRA 16 17 FIN 19 RA FIN 22 23 FIN RA 26 FIN 28 29 FINRA
 
     }
 }
