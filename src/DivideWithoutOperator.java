@@ -31,10 +31,10 @@ Write a method that can divide two numbers without using division operator.
         }
         double decimalCount = 0;
         if (number < divisor && number!=0) {
-            number = number * 10;
+            number = number * 100;
             while (number>=divisor){
                 number-=divisor;
-                decimalCount+=0.1;
+                decimalCount+=0.01;
             }
         }
         return (res+decimalCount) * sign;
