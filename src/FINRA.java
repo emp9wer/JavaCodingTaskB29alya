@@ -12,7 +12,7 @@ Write a method that prints out the numbers from 1 to 30 but;
     public static void finra(){
 
         for (int i = 1; i <=30 ; i++) {
-             if ((i%3==0)&&(i%5==0)) {
+             if ((i%3==0)&&(i%5==0)) {//first we check if both conditions are true //order or precedence matters!
                  System.out.print("FINRA ");
              } else if(i%3==0){
                 System.out.print("FIN ");
