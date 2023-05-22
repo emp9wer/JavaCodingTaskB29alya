@@ -8,9 +8,13 @@ public class Runner {
 
 
         System.out.println("--------------------divideWoOperator-----------------------");
-        System.out.println(DivideWithoutOperator.divideWoOperator(8,-2));//-4
-        System.out.println(DivideWithoutOperator.divideWoOperator(0,-2));//-0
-        System.out.println(DivideWithoutOperator.divideWoOperator(8,2));//4
+        System.out.println(DivideWithoutOperator.divideWoOperator(8,-2));//-4.0
+        System.out.println(DivideWithoutOperator.divideWoOperator(0,-2));//0.0
+        System.out.println(DivideWithoutOperator.divideWoOperator(8,2));//4.0
+        System.out.println(DivideWithoutOperator.divideWoOperator(5,2));//2.5
+        System.out.println(DivideWithoutOperator.divideWoOperator(7,-3));//-2.3
+       // System.out.println(DivideWithoutOperator.divideWoOperator(7,0));//ArithmeticException: divisor can not be 0
+        System.out.println(DivideWithoutOperator.divideWoOperator(8,3));//2.6
 
 
         System.out.println("--------------------FINRA-----------------------");
