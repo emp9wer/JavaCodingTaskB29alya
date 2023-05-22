@@ -7,8 +7,8 @@ Numbers -- Divide without / operator
 Write a method that can divide two numbers without using division operator.
 
      */
-    public static double divideWoOperator(int number, int divisor) {
-        int res = 0;
+    public static double divideWoOperator(double number, double divisor) {
+        double res = 0;
         int sign =0;
         if (divisor == 0) { // check if number is 0 - we can not divide by 0
             throw new ArithmeticException("divisor can not be 0");

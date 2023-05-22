@@ -15,6 +15,7 @@ public class Runner {
         System.out.println(DivideWithoutOperator.divideWoOperator(7,-3));//-2.3
        // System.out.println(DivideWithoutOperator.divideWoOperator(7,0));//ArithmeticException: divisor can not be 0
         System.out.println(DivideWithoutOperator.divideWoOperator(8,3));//2.6
+        System.out.println(DivideWithoutOperator.divideWoOperator(8.5,3.1));//2.74
 
 
         System.out.println("--------------------FINRA-----------------------");
