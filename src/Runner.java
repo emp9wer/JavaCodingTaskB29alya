@@ -1,4 +1,4 @@
-import java.util.Map;
+
 
 public class Runner {
     public static void main(String[] args) {
@@ -9,6 +9,7 @@ public class Runner {
 
         System.out.println("--------------------divideWoOperator-----------------------");
         System.out.println(DivideWithoutOperator.divideWoOperator(8,-2));//-4.0
+        System.out.println(DivideWithoutOperator.divideWoOperator(-8,2));//-4.0
         System.out.println(DivideWithoutOperator.divideWoOperator(0,-2));//0.0
         System.out.println(DivideWithoutOperator.divideWoOperator(8,2));//4.0
         System.out.println(DivideWithoutOperator.divideWoOperator(5,2));//2.5
