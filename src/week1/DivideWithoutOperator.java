@@ -12,8 +12,8 @@ Write a method that can divide two numbers without using division operator.
     public static double divideWoOperator(double number, double divisor) {
 
 
-        int res = 0;             // we store whole count in this int variable res
-        int sign =0;             // we store +1 or -1 in this variable depending on condition to return positive or negative
+        int res = 0; // we store whole count in this int variable res
+        int sign =0; // we store +1 or -1 in this variable depending on condition to return positive or negative
         double decimalCount = 0; // we store decimal count in this double variable decimalCount
 
 
