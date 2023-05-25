@@ -16,13 +16,13 @@ public class Task3_FINRA {
         }
     }
         public static void finra(int number){
-
-            if (number % 3 == 0 && number % 5 != 0) {
+            if (number % 3 == 0 && number % 5 == 0) {
+                System.out.print("FINRA ");}
+           else  if (number % 3 == 0 ) {
                 System.out.print("FIN ");
-            } else if (number % 5 == 0 && number % 3 != 0) {
+            } else if (number % 5 == 0 ) {
                 System.out.print("RA ");
-            } else if (number % 3 == 0 && number % 5 == 0) {
-                System.out.print("FINRA ");
+
             } else {
                 System.out.print(number+" ");
             }
