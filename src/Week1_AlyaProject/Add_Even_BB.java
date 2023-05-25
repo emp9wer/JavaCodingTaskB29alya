@@ -19,3 +19,9 @@ public class Add_Even_BB {
 
 
 }
+     /*
+     public static String identifyOddEven( int n ) {
+
+       return n%2==0 ? "Even" : "odd" ;
+   }
+   */
