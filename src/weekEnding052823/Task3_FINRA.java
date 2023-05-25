@@ -11,20 +11,21 @@ public class Task3_FINRA {
 
 
     public static void main(String[] args) {
-        for (int i = 1; i <= 30; i++) {
-            finra(i);
-        }
+
+            finra(30);
+
     }
         public static void finra(int number){
-            if (number % 3 == 0 && number % 5 == 0) {
+        for(int i=1;i<number;i++)
+            if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FINRA ");}
-           else  if (number % 3 == 0 ) {
+           else  if (i % 3 == 0 ) {
                 System.out.print("FIN ");
-            } else if (number % 5 == 0 ) {
+            } else if (i % 5 == 0 ) {
                 System.out.print("RA ");
 
             } else {
-                System.out.print(number+" ");
+                System.out.print(i+" ");
             }
         }
 
