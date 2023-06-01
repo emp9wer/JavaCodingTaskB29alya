@@ -1,23 +1,26 @@
 package week2;
 
 public class SwapNumbers {
-
     public static void main(String[] args) {
+        int a = 100;//Initialize two integer variables, a and b, with the values 10 and 20.
+        int b = 5;
+        a = a + b; // Assign the sum of a and b to a (a = a + b)
+        // Now a holds the value of 10 + 20, which is 30.
 
-        int a = 15;
-        int b = 25;
+        b = a - b; // Assign the difference of a and b to b. (b = a - b)
+        // Now b holds the value of 30 - 20, which is 10.
+        a = a - b; //Assign the difference of a and b to a (a = a - b)
+        //Now a holds the value of 30 - 10, which is 20.
+        
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
 
-       // first I will get the sum of both nums. Then I will subtract one in order to get the other's value and assign that value to the other variable. This will update one of my variables value with the other variable's value. Lastly I'd  substract from the sum the newly assigned value in order to get the other variable's value.
-       a = a + b;
-       b = a - b;
-       a = a - b;
-
-
-        System.out.println("variable a is now " + a + " and variable b is now " + b);
     }
 
 }
+
+
 /*
 Numbers -- Swap Numbers
-Swap two variable' values without using a third variable
+Swap two variable values without using a third variable
  */
