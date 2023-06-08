@@ -1,3 +1,23 @@
-hello there
-use your name branches
-use folders like week1 / week2 for your projects inside src folder
+ Git and GitHub flow For JavaPracticeTasks on IntelliJ:**
+
+--- When you start to work on the project for the next week tasks
+
+First you must be on your local branch. (If this is your first time and if you don’t have local branch, first create your own local branch from master and checkout it.)
+
+Right click Local Master -> click Update
+
+Right click Local Master -> click Merge "Master" into "Zack" branch
+
+Start to write your code. (Package names must be same - Pay attention)
+ -src-week04-task1-Zack.java (provide your solution)-task2-Zack.java-task3-Zack.java
+Commit your changes
+
+Push your branch.
+
+Create your PR (Pull Request) on Github side .
+
+Assign your review-mate for peer-review process.
+
+Code owner merges his/her custom branch after review is done/approved.
+
+**You can complete all this flow above for our JavaPracticeTask project each week.
