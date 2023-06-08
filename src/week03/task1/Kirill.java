@@ -6,6 +6,13 @@ public class Kirill {
 Numbers -- Prime Number
 Write a method that can check if a number is prime or not.
      */
+
+
+    /**
+     * checks if the number is prime
+     * @param num
+     * @return
+     */
     public static boolean isPrime(int num){
         if(num<=1) // check if number is less of == 1
         {

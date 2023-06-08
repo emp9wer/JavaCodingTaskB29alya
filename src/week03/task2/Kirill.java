@@ -8,8 +8,13 @@ Write a return method that can reverse digits of a negative number and return it
 input: -38  output: -83
      */
 
-    public static int reverseNegative(int a){
-        String b = String.valueOf(a);
+    /**
+     * reverses negative number
+     * @param number
+     * @return
+     */
+    public static int reverseNegative(int number){
+        String b = String.valueOf(number);
         String temp = "";
         for (int i = b.length()-1; i>=1 ; i--) {
             temp+=b.charAt(i);
