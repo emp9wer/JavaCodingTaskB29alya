@@ -1,6 +1,6 @@
-package weekEnding060423;
+package week2.task2;
 
-public class Task2_DivisibleBy3or5or15 {
+public class Mariya {
 
     /*
     Numbers -- Divisible by 3, 5, 15

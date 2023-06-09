@@ -1,4 +1,4 @@
-package weekEnding052823;
+package week1.task1;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ EX:
        identify(5) --> "Odd"
        identify(6) --> "Even"
  */
-public class Task1_oddAndEven {
+public class Mariya {
 
     public static String identify(int num){
         if (num%2==0) return "Even";

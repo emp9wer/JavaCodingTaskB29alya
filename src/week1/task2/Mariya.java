@@ -1,4 +1,4 @@
-package weekEnding052823;
+package week1.task2;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
 Numbers -- Divide without / operator
 Write a method that can divide two numbers without using division operator.
  */
-public class Task2_divideWithOutOperator {
+public class Mariya {
     public static String divide(int num1, int num2){
         if(num2==0) {
             throw new ArithmeticException("Cannot divide by zero.");

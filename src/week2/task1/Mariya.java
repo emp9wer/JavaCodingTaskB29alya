@@ -1,8 +1,8 @@
-package weekEnding060423;
+package week2.task1;
 
 import java.util.Scanner;
 
-public class Task1_SwapNumbers {
+public class Mariya {
     /*
     Numbers -- Swap Numbers
 Swap two variable' values without using a third variable
