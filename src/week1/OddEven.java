@@ -1,4 +1,4 @@
-package InterviewQuestions;
+package week1;
 
 public class OddEven {
     /*
