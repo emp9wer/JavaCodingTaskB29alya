@@ -1,6 +1,6 @@
 package week2;
 
-public class NumbersDivisibleBy {
+class NumbersDivisibleBy {
     public static void main(String[] args) {
         /*
         Numbers -- Divisible by 3, 5, 15
