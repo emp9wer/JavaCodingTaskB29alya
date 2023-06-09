@@ -19,7 +19,6 @@ public class Zack {
      * @param num
      * @return
      */
-
     public static boolean primeNumber(int num) {
 
         if(num <= 1){
