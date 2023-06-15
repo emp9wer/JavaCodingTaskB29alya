@@ -9,7 +9,14 @@ public class Mariya {
       same("abc", "abb"); ==> false
 
      */
-public static boolean isSameLetters(String one, String two){
+
+    /**
+     * Methods determine if the two strings have the same amount of the same letters
+     * @param one
+     * @param two
+     * @return
+     */
+    public static boolean isSameLetters(String one, String two){
     if (one.length() != two.length()) {
         return false;
     }
