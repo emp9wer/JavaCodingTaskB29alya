@@ -10,6 +10,11 @@ public class Mariya {
 
      */
 
+    /**
+     * Methods removes duplicate characters from the String
+     * @param str
+     * @return
+     */
     public static String removeDup(String str){
         String result = "";
 

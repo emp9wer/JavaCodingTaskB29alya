@@ -19,6 +19,10 @@ public class Kirill {
      * @return boolean
      */
     public static boolean areSameLetters(String a, String b){
+        if(a.length()!=b.length()){
+            return false;
+        }
+
         String temp="";
         for(int i = 0; i<a.length();i++){
             for(int j = 0; j<a.length();j++){
@@ -27,10 +31,8 @@ public class Kirill {
                 }
             }
         }
-        if(temp.equals(a)){
-            return true;
-        }
-        return false;
+        return temp.equals(a);
+
     }
 
     //version 2 using Arrays.sort method

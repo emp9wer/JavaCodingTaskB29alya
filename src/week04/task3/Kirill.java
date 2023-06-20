@@ -5,7 +5,7 @@ public class Kirill {
     //  Ex: removeDup("AAABBBCCC") ==> ABC
 
     /**
-     * method that can remove the duplicated values from the String
+     * removes the duplicated values from the String
      * @param a
      * @return String
      */

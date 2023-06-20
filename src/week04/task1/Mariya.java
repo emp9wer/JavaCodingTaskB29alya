@@ -9,6 +9,11 @@ public class Mariya {
   Ex: frequencyOfChars("AAABBCDD") ==> A3B2C1D2
      */
 
+    /**
+     * Method counts how many of each character is presented in the string
+     * @param str
+     * @return
+     */
     public static String countLetters(String str) {
         String result = "";
         for (int j = 0; j < str.length(); j++) {
@@ -23,7 +28,7 @@ public class Mariya {
             }
 
             if (!result.contains("" + ch)) {
-                result = result + count + str.charAt(j);
+                result =result + count + str.charAt(j);
             }
         }
 
