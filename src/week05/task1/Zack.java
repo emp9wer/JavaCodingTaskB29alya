@@ -12,6 +12,7 @@ public class Zack {
     public static void main(String[] args) {
         System.out.println("unique_1(\"AAABBBCCCDEF\") = " + unique_1("AAABBBCCCDEF"));
         System.out.println("unique_2(\"AAABTTTTBBCCCDEF\") = " + unique_2("AAABBBCCCDEF"));
+        System.out.println("unique_3(\"AAABBBCCCDEF\") = " + unique_3("AAABBBCCCDEF"));
     }
 
     // ============= SOLUTION 1 =============================
@@ -49,4 +50,23 @@ public class Zack {
         return result;
     }
 
+    // ============= SOLUTION 3 =============================
+    /**
+     * returns unique characters from the given String
+     * @param str String
+     * @return String
+     */
+    public static String unique_3(String str) {
+        String unique = "";
+
+        for (int i = 0; i < str.length(); i++) { //
+            char each = str.charAt(i);
+
+            if (str.indexOf(each) == str.lastIndexOf(each)) {
+                unique += each;
+            }
+        }
+
+        return unique;
+    }
 }
