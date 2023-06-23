@@ -26,7 +26,7 @@ Write a function that can reverse a String
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Please write your string:");
-        String original = in.next();
+        String original = in.nextLine();
         System.out.println("Result of reversed string : "+reverse(original));
 
     }
