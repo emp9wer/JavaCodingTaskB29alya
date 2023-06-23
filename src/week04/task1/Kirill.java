@@ -34,6 +34,7 @@ public class Kirill {
     public static void main(String[] args) {
 
         System.out.println(frequencyOfCharacters("AAABBCDD"));
+        System.out.println(frequencyOfCharacters("abcabcabc"));
         System.out.println(frequencyOfCharacters("aaaaaaaabbbbbbffffweeddddggggggg"));
         System.out.println(frequencyOfCharacters("aabbbcccccaaaaaddddbbbb"));
     }
