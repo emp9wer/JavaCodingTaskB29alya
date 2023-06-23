@@ -21,7 +21,7 @@ public class Kirill {
 
     public static void main(String[] args) {
         System.out.println("reverseString(\"ABCD\") = " + reverseString("ABCD"));
-        System.out.println("reverseString(\"Chuck Norris\") = " + reverseString("Chuck Norris"));
+        System.out.println("reverseString(\"Chuck Norris 2 3 4 5 6\") = " + reverseString("Chuck Norris 2 3 4 5 6"));
     }
 
 
