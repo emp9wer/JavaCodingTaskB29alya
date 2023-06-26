@@ -3,6 +3,8 @@ package week06.task1;
 public class Fatima {
     public static boolean passwordTask () {
 
+        // INCORRECT TASK :(
+
         String password = "Fatima1@";
 
         boolean hasSpecialChar = false;
