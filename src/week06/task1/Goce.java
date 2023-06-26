@@ -14,7 +14,7 @@ public class Goce {
     //-if all requirements above are met, the method returns true, otherwise returns  false
 
     public static boolean validPassword(String password) {
-        if(password.equals(" ") || password.length() < 6) return false;
+        if(password.length() < 6) return false;
 
         boolean isDigit = false, isSpecialChar = false, isUpperCase = false, isLowerCase = false;
 
