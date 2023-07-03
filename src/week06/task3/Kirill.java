@@ -23,16 +23,21 @@ public class Kirill {
             numbers = numbers.replace("  "," ");
         }
       numbers = numbers.trim();
-        for (String s : numbers.split(" ")) {
-            res+=Integer.valueOf(s);
+        for (String each : numbers.split(" ")) {
+            res+=Integer.parseInt(each);
+           // res+=Integer.valueOf(each);
         }
         return res;
     }
 
     public static void main(String[] args) {
         System.out.println("string_SumOfAllDigits(\"12 java 5 apple 3\") = " + string_SumOfAllDigits("12 java 5 apple 3"));
+
         System.out.println("string_SumOfAllDigits(\"java 12 java 5 apple 3 java java 3 3 java\") = " + string_SumOfAllDigits("java 12 java 5 apple 3 java java 3 3 java"));
-        System.out.println("string_SumOfAllDigits(\"java   12 java      5 apple     3 java    java   3 3         java   \") = " + string_SumOfAllDigits("java   12 java      5 apple     3 java    java   3 3         java   "));
+
+        System.out.println("string_SumOfAllDigits(\" java   1000 java      5 apple     3 java    java   3 3         java   \") = " + string_SumOfAllDigits(" java   1000 java      5 apple     3 java    java   3 3         java   "));
+
+        System.out.println("string_SumOfAllDigits(\"122 java 5 apple 3\") = " + string_SumOfAllDigits("122 java 5 apple 3"));
     }
 
 }
