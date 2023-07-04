@@ -26,7 +26,7 @@ public class Goce {
 //
 //    }
 
-            
+
 //Method takes parameters approach:
     static int[] arr = {99, 12, 23, 32, 44, 57, 6};
     static int min = Integer.MAX_VALUE; // Variable 'min' is a temporary minimum number variable where every number in the array will be compared against this. Temporarily the maximum number value in Java is assigned to it.
