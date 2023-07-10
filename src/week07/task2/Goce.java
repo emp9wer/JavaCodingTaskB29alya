@@ -8,7 +8,6 @@ public class Goce {
         Write a return method that can sort an int array in Ascending order without using the sort method of the Arrays class
             Ex: int[] arr = {10, 9, 8, 7};
             arr = sortAscending(arr); ==>{ 7, 8, 9, 10};
-
      */
 
 
@@ -32,7 +31,7 @@ public class Goce {
 
 
     //Parameter input aproach:
-    static int[] arr = {10, 9, 8, 7};
+
 
     /**
      * Method accepts an array parameter and returns elements from that array in ascending order
@@ -41,18 +40,16 @@ public class Goce {
      */
     public static List<Integer> ascendingArr(int[] input) {
         List<Integer> arrList = new ArrayList<>();
-        for (int i = 0; i < arr.length; i++) {// Iterates through the array and adds array elements into the arrayList.
-            arrList.add(arr[i]);
+        for (int i = 0; i < input.length; i++) {// Iterates through the array and adds array elements into the arrayList.
+            arrList.add(input[i]);
         }
         Collections.sort(arrList);// sort() from Collections class sorts elements in accenting order
         return arrList;// Returns the list with elements in ascending order.
     }
 
-
-
-
     public static void main(String[] args) {
 
+        int[] arr = {10, 9, 8, 7};
         //Scanner input approach:
 //        Scanner input = new Scanner(System.in);
 //
